@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_namecur">currency</string>
+
+    <string-array name="currency_unit_array">
+        <item>Rupees</item>
+        <item>Dollar</item>
+        <item>Pound</item>
+        <item>Yen</item>
+        <item>WON</item>
+    </string-array>
+</resources>

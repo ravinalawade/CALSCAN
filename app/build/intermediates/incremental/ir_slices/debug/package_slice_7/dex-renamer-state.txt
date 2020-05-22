@@ -1,0 +1,4 @@
+#Mon Oct 08 01:45:27 IST 2018
+base.0=C\:\\Users\\RAVI\\Desktop\\omkar\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+path.0=classes.dex
+renamed.0=classes.dex

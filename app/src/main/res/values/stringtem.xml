@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_nametem">temperature</string>
+
+    <string-array name="temp_unit_array">
+        <item>celcius</item>
+        <item>kelvin</item>
+        <item>farenheit</item>
+        <item>reaumur</item>
+    </string-array>
+
+</resources>

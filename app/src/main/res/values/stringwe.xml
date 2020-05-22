@@ -1,0 +1,11 @@
+
+<resources>
+    <string name="app_namewe">weight</string>
+
+    <string-array name="weight_unit_array">
+        <item>kg</item>
+        <item>gram</item>
+        <item>pound</item>
+        <item>ton</item>
+    </string-array>
+</resources>

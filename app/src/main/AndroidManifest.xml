@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.gms.samples.vision.ocrreader"
+    android:installLocation="auto" >
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="false"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/main"
+        android:label="Calculator"
+        android:supportsRtl = "true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+
+        <activity
+            android:name="com.google.android.gms.samples.vision.ocrreader.MainActivity"
+            android:label="Calscan"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".display_message">
+            android:parentActivityName=".OcrCaptureActivity"
+            tools:ignore="DuplicateActivity">
+            <!-- The meta-data tag is required if you support API level 15 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".OcrCaptureActivity" />
+        </activity>
+        <activity android:name="com.google.android.gms.samples.vision.ocrreader.OcrCaptureActivity"
+            android:label="Read Text" />
+
+        <activity android:name=".weight">
+
+        </activity>
+
+        <activity android:name=".length">
+
+        </activity>
+
+        <activity android:name=".temp">
+
+        </activity>
+
+        <activity android:name=".currency">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_namele">length</string>
+
+    <string-array name="length_unit_array">
+        <item>meter</item>
+        <item>cm</item>
+        <item>mile</item>
+        <item>foot</item>
+        <item>inch</item>
+    </string-array>
+</resources>

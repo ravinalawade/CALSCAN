@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e1e2b"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:src="@drawable/main"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="76dp"
+        android:background="#1e1e2b"
+        android:text="Calscan"
+        android:textColor="#ffffff"
+        android:textSize="60sp"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:layout_marginLeft="110dp"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:background="@drawable/index3"
+        android:id="@+id/read_text"
+        android:layout_marginTop="82dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:background="@drawable/index1"
+        android:onClick="lengthconverter"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="183dp"
+
+        />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:background="@drawable/index"
+        android:onClick="weightconverter"
+        android:layout_marginTop="261dp"
+        android:layout_marginLeft="2dp"
+
+        />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:background="@drawable/index2"
+        android:onClick="currencyconverter"
+        android:layout_marginTop="261dp"
+        android:layout_marginLeft="183dp"
+        />
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="172dp"
+        android:background="@drawable/images"
+        android:onClick="temperatureconverter"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="2dp"
+
+        />
+
+</RelativeLayout>
